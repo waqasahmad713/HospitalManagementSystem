@@ -1,0 +1,74 @@
+                                                                 ________________
+                                                                |class Person    | 
+                                                                |________________|    
+                                                                |name: str       |
+                                                                |f_name: str     |
+                                                                |gender: str     |
+                                                                |________________|
+                                                                |get_name(): str |
+                                                                |                |
+                                                                |get_f_name():str|
+                                                                |                |
+                                                                |get_gender():str|
+                                                                |________________|
+                                                                 | |   |
+        |--------------------------------------------------------- |   |                                                           
+        |                           |-------------------------------   |
+        |                           |                  |---------------|              
+        |                 ----------|-----------       |
+|-------------------|     |   class Doctor     |   |---|--------------| 
+| class Patient     |     |---------------------   |class Nurse       |
+|-------------------|     | name     :  str    |   |------------------|
+| name       : str  |     | f_name   :  str    |   |name     :   str  |
+| f_name     : str  |     | gender   :  str    |   |f_name   :   str  |
+| gender     : str  |     | specility:  str    |   |gender   :   str  |
+| age        : str  |     | d_id     :  str    |   |duty     :   str  |
+| dieases    : str  |     |--------------------|   |n_id     :   str  |
+| p_id       : str  |     |get_name()  :  str  |   |------------------|
+|assigned_doc: str  |     |get_f_name():  str  |   |get_name()  : str |
+|-------------------|     |get_gender():  str  |   |get_f_name(): str |                  
+|get_name(): str    |     |get_id()    :  str  |   |get_gender(): str |                   
+|get_f_name(): str  |     |get_specility(): str|   |get_id()    : str |                  
+|get_gender(): str  |     ----------------------   |get_duty()  : str |---|                  
+|get_age()   : str  |              |               --------------------   |              
+|get_dieases(): str |              |                                      |               
+|get_assig_doc():str|               --------------------------------      |       ___________________________________              
+|get_id()  :  str   |-------------------------------------|         |     |       |class Hospital                   |
+---------------------    |                                |         |     |       |---------------------------------|
+                         |       ______________________   |         |     |       | name           :  str           |
+                         |      |class Investigation  |   |         |     |------>| address        :  str           |
+                         |      |---------------------|   |         |             | capacity       :  int           |
+                         |      |invest_type :        |   |         |             | patients       :  dict          |
+                         |______|date        :        |   |         |------------>| investigation  :  dict          |
+                                |result      :        |   |                       | doctors        :  dict          |
+                                |---------------------|   |---------------------->| nurses         :  dict          |
+                                |get_invest_type():str|                           |-------------------------------- |            
+                                |get_date()       :str|-------------------------->| admit_patient()      : dict     |  
+                                |get_result()     :str|                           | discahrge_patient()  : dict     |   
+                                |---------------------|                           | add_doc()            : dict     |          
+                                                                                  | add_investigation()  : dict     |
+                                                                                  | add_nurse()          : dict     |
+   |--------------------|                                                         | display_nurse()      : str      |                        
+   |class Admin         |-------------------------------------------------------->| display_patient()    : str      |                    
+   |--------------------|                                                         | show_investigation (): str      |      
+   |password: str       |                                                         | my_details()         : str      |                            
+   |--------------------|                                                         |---------------------------------| 
+   |return_pass(): str  |
+   |--------------------|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
